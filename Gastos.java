@@ -5,6 +5,14 @@ class Gastos {
     private double cajillas;
     private double harina;
 
+
+    
+
+
+
+
+
+
     public void registrarGastos(Scanner scanner) {
         System.out.print("Ingrese el gasto de bolsas: ");
         bolsas = scanner.nextDouble();
