@@ -5,8 +5,8 @@ class Gastos {
     private double cajillas;
     private double harina;
 
+public salario; 
 
-    
 
 
 
