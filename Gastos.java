@@ -5,8 +5,8 @@ class Gastos {
     private double cajillas;
     private double harina;
 
+    public double salario; 
 
-    
 
 
 
@@ -22,6 +22,16 @@ class Gastos {
 
         System.out.print("Ingrese el gasto de harina: ");
         harina = scanner.nextDouble();
+
+
+
+        System.out.println("Ingrese los salarios totales");
+        salario= scanner.nextDouble();
+
+
+
+
+
     }
 
     public void mostrarResultados() {
@@ -29,6 +39,12 @@ class Gastos {
         System.out.println("Gasto 1: " + bolsas);
         System.out.println("Gasto 2: " + cajillas);
         System.out.println("Gasto 3: " + harina);
-        System.out.println("Total de gastos: " + (bolsas + cajillas + harina));
+
+        System.out.println("Gasto 4: "+ salario);
+
+
+
+
+        System.out.println("Total de gastos: " + (bolsas + cajillas + harina+ salario));
     }
 }
