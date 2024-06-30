@@ -46,5 +46,13 @@ class Gastos {
 
 
         System.out.println("Total de gastos: " + (bolsas + cajillas + harina+ salario));
+
+
+
+        System.out.println("Espacio para la clase puente");
+
+
+
+
     }
 }
