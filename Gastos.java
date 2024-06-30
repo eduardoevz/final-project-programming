@@ -5,11 +5,7 @@ class Gastos {
     private double cajillas;
     private double harina;
 
-<<<<<<< HEAD
-public salario; 
-=======
-    public double salario; 
->>>>>>> puente
+public double salario; 
 
 
 
