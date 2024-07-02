@@ -4,6 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
+        
+
+        Gastos gastos = new Gastos();
+        gastos.registrarGastos(scanner);
+        gastos.mostrarResultados();
+
         System.out.println("Ingrese los nombres y precios de 5 productos lacteos:");
         ProductoLacteo[] productos = new ProductoLacteo[5];
         for (int i = 0; i < 5; i++) {
@@ -17,9 +24,5 @@ public class Main {
         Ventas ventas = new Ventas(productos);
         ventas.registrarVentas(scanner);
         ventas.mostrarResultados();
-
-        Gastos gastos = new Gastos();
-        gastos.registrarGastos(scanner);
-        gastos.mostrarResultados();
     }
 }
