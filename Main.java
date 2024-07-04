@@ -21,5 +21,12 @@ public class Main {
         Gastos gastos = new Gastos();
         gastos.registrarGastos(scanner);
         gastos.mostrarResultados();
+
+
+      
+
+
+
+
     }
 }
