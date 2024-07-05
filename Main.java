@@ -22,4 +22,17 @@ public class Main {
         gastos.registrarGastos(scanner);
         gastos.mostrarResultados();
     }
+
+
+    public static viud escribir(Ventas ventas){
+        
+    }
+    
+
+
+
+
+
+
+
 }
