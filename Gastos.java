@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 class Gastos {
-    private double bolsas;
-    private double cajillas;
-    private double harina;
+    public double bolsas;
+    public double cajillas;
+    public double harina;
 
-    public double salario; 
+public double salario; 
 
 
 
@@ -46,5 +46,13 @@ class Gastos {
 
 
         System.out.println("Total de gastos: " + (bolsas + cajillas + harina+ salario));
+
+
+
+        System.out.println("Espacio para la clase puente");
+
+
+
+
     }
 }

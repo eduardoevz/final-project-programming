@@ -1,8 +1,21 @@
 import java.util.Scanner;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+
+        
+
+        Gastos gastos = new Gastos();
+        gastos.registrarGastos(scanner);
+        gastos.mostrarResultados();
 
         System.out.println("Ingrese los nombres y precios de 5 productos lacteos:");
         ProductoLacteo[] productos = new ProductoLacteo[5];
@@ -17,6 +30,7 @@ public class Main {
         Ventas ventas = new Ventas(productos);
         ventas.registrarVentas(scanner);
         ventas.mostrarResultados();
+<<<<<<< HEAD
 
         Gastos gastos = new Gastos();
         gastos.registrarGastos(scanner);
@@ -34,6 +48,13 @@ public class Main {
     public static void escribir(Ventas ventas){
 
     }
+=======
+    }
+
+
+
+
+>>>>>>> main
     
 
 
@@ -42,4 +63,16 @@ public class Main {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> main
 }
