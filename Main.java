@@ -31,8 +31,8 @@ public class Main {
     }
 
 
-    public static viud escribir(Ventas ventas){
-        
+    public static void escribir(Ventas ventas){
+
     }
     
 
